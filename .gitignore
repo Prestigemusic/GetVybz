@@ -1,0 +1,98 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.*.local
+
+# OS-generated files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# =========================
+# Node / Backend
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+lib/
+
+# Prisma
+prisma/migrations/*/steps.json
+prisma/dev.db
+prisma/dev.db-journal
+
+# Firebase
+.firebase/
+firestore-debug.log
+database-debug.log
+storage-debug.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Mobile (React Native / Expo)
+# =========================
+.expo/
+.expo-shared/
+.expo-dev/
+.expo-packager-cache/
+.expo-web/
+web-build/
+
+# Metro bundler cache
+.expo/.cache
+*.packager
+*.expo
+*.expo-shared
+
+# React Native / Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+*.iml
+*.apk
+*.aar
+*.dex
+*.class
+
+# React Native / iOS
+ios/build/
+ios/Pods/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace/
+ios/DerivedData/
+ios/*.xcuserstate
+ios/*.xcuserdatad
+ios/Podfile.lock
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
