@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "GetVybz",
+    "slug": "getvybz",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/getvybz-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6A0DFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#6A0DFF"
+      },
+      "package": "com.anonymous.getvybz"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.getvybz"
+    },
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}

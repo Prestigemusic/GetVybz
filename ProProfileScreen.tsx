@@ -1,0 +1,1 @@
+export default function ProProfileScreen(){return null;}
